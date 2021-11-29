@@ -111,6 +111,10 @@ margin-top: -20%;
 
 #links h1{
     flex-basis: 70%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: start;
     text-align: right;
     font-family: 'Spartan', sans-serif; 
 
@@ -124,9 +128,10 @@ margin-top: -20%;
     grid-gap: 20px;
     /* width: 95%;
     margin: 10px auto; */
-    margin-bottom: 20px;   
+    margin-bottom: 50px;   
     flex-flow: row wrap;
     justify-content: space-evenly;
+    height: 30%;
 
     /* outline: 5px solid #282; */
 }
@@ -178,7 +183,8 @@ margin-top: -20%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    outline: 2px solid #48e;
+    outline: 8px solid #48e;
+    height: 400px;
 }
 #shop h2{
     width: 100%;
@@ -198,23 +204,41 @@ margin-top: -20%;
     text-decoration: none;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    height: auto;
+    justify-content: flex-start;
+    height: 400px;
     text-align: center;
 }
 
+.img1{
+    background-image: url("../images/tienda-de-barrio.jpg");
+    background-size:cover;
+    background-blend-mode: luminosity;
+}
+.img2{
+    background-image: url("../images/supermercado.jpg");
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+.img3{
+    background-image: url("../images/restaurante.jpg");
+    background-size: cover;
+    background-blend-mode: luminosity;
+}
+
 .place h4{
-    color: #555;
+    color: #EEE;
     font-family: 'Spartan', sans-serif; 
     text-transform: uppercase;
     font-weight: 500; 
     font-size: 30px;
+    margin-bottom: 50px;
+    text-shadow: 1px 0px 2px rgb(255, 255, 255),0px 1px 2px #555,2px 2px 2px #333;
 }
-.place .imagen{
-    height: 85%;
-    margin: 0 auto; 
+/* .place .imagen{
+    height: 80%;
+    margin: 10 auto; 
     margin-bottom: 1px;
-}
+} */
 #shop .place img{
     width: 50%;
     margin: 25px auto;
