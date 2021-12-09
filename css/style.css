@@ -12,7 +12,7 @@ body{
 
 
 #container{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     /* margin-top: 20px; */
     /* padding: 20px; */
@@ -211,16 +211,19 @@ margin-top: -20%;
 
 .img1{
     background-image: url("../images/tienda-de-barrio.jpg");
+    background-position-y: -100px;
     background-size:cover;
     background-blend-mode: luminosity;
 }
 .img2{
     background-image: url("../images/supermercado.jpg");
+    background-position-y: -150px;
     background-size: cover;
     background-blend-mode: luminosity;
 }
 .img3{
     background-image: url("../images/restaurante.jpg");
+    background-position-y: -150px;
     background-size: cover;
     background-blend-mode: luminosity;
 }
